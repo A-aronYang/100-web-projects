@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 30px auto 20px;
+  text-align: center;
+  letter-spacing: 30px;
+}
+
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.loading-container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imgs-container {
+  margin: 20px 30%;
+}
+
+.imgs-container img {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    letter-spacing: 15px;
+  }
+
+  .imgs-container {
+    margin: 10px 5%;
+  }
+}
